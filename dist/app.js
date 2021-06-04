@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// import 'module-alias/register';
 require("@/setup");
 var _a = nx.$global, conf = _a.conf, args = _a.args;
 var App = /** @class */ (function () {

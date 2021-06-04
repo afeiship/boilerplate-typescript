@@ -1,3 +1,4 @@
+import 'module-alias/register';
 import '@/setup';
 
 const { conf, args } = nx.$global;

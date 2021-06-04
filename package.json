@@ -12,6 +12,9 @@
     "start-with-args": "babel-node src/app.js --name=nodejsapp"
   },
   "main": "index.js",
+  "_moduleAliases": {
+    "@": "dist"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node-fetch": "^2.5.10",
@@ -25,6 +28,7 @@
     "@jswork/next-global": "^1.0.0",
     "@jswork/next-require": "^1.0.3",
     "@jswork/next-yaml-configuration": "^1.0.1",
+    "module-alias": "^2.2.2",
     "node-fetch": "^2.6.1",
     "yargs-parser": "^20.2.7"
   }
