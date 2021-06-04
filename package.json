@@ -1,0 +1,31 @@
+{
+  "name": "@boilerplate-scope/boilerplate-typescript",
+  "version": "1.0.0",
+  "description": "boilerplate-typescript-description",
+  "homepage": "https://github.com/afeiship/boilerplate-typescript",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "start-with-args": "babel-node src/app.js --name=nodejsapp"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "@types/yargs-parser": "^20.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@jswork/next": "^1.0.4",
+    "@jswork/next-fetch": "^1.1.2",
+    "@jswork/next-global": "^1.0.0",
+    "@jswork/next-require": "^1.0.3",
+    "@jswork/next-yaml-configuration": "^1.0.1",
+    "node-fetch": "^2.6.1",
+    "yargs-parser": "^20.2.7"
+  }
+}
