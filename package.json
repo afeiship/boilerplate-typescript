@@ -2,7 +2,7 @@
   "name": "@boilerplate-scope/boilerplate-typescript",
   "version": "1.0.0",
   "description": "boilerplate-typescript-description",
-  "homepage": "https://github.com/afeiship/boilerplate-typescript",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -31,5 +31,10 @@
     "module-alias": "^2.2.2",
     "node-fetch": "^2.6.1",
     "yargs-parser": "^20.2.7"
+  },
+  "boilerplate": "@boilerplate-scope/boilerplate-typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-typescript"
   }
 }
