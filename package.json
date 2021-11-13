@@ -32,9 +32,9 @@
     "node-fetch": "^2.6.1",
     "yargs-parser": "^20.2.7"
   },
-  "boilerplate": "@boilerplate-scope/boilerplate-typescript",
+  "boilerplate": "boilerplate-typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-typescript"
+    "url": "https://github.com/afeiship/boilerplate-typescript.git"
   }
 }
